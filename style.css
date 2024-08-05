@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-color: #020713;
+  color: white;
+}
+
+.editor {
+  display: flex;
+  height: 50%;
+}
+.heading{
+  text-align: center;
+}
+.editor{
+  flex: 1;
+  margin: 5px;
+  /* padding: 10px; */
+  font-family: monospace;
+  font-size: 14px;
+  background-color: #000000 ;
+  color: white;
+  /* border: 3px solid rgb(5, 145, 201); */
+  border-radius: 4px;
+  resize: none;
+  height: 100%;
+}
+
+.browser {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  margin: 15px;
+}
+
+.browser-bar {
+  display: flex;
+  background-color: #f1f1f1;
+  padding: 5px;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.address-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.address-bar input {
+  width: 80%;
+  padding: 5px;
+  border: none;
+  background-color: #fff;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.preview {
+  background-color: white;
+  flex: 1;
+  border: none;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+

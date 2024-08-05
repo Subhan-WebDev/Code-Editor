@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Code Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="heading">Live Code Editor </h1>
+  <div class="editor">
+    <div id="html-editor" class="html-editor editor" placeholder="HTML"></div>
+    <div id="css-editor" class="css-editor editor" placeholder="CSS"></div>
+    <div id="js-editor" class="js-editor editor" placeholder="JavaScript"></div>
+  </div>
+  <div class="browser">
+    <div class="browser-bar">
+      <div class="address-bar">
+        <input type="text" value="https://yourpreview.com" readonly>
+      </div>
+    </div>
+    <iframe id="preview" class="preview"></iframe>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.14/ace.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.14/ext-language_tools.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
